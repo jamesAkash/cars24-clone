@@ -1,0 +1,39 @@
+:root {
+  --primary-color: #222831;
+  --primary-bg: #f6f5f5;
+  --secondary-bg: #eadfb4;
+  --secondary-color: #f6995c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-size: clamp(16px, 5.2vw, 42px);
+}
+
+h2 {
+  font-size: clamp(12px, 3.8vw, 32px);
+}
+
+p,
+::placeholder {
+  font-size: clamp(12px, 2.2vw, 16px);
+}
